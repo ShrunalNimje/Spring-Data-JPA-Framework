@@ -1,0 +1,10 @@
+
+insert into Course(id, name, author) 
+values (1, 'Shrunal', 'unknown'),
+(2, 'Shrunal', 'known');
+
+select * from Course;
+
+delete from Course where id = 2;
+
+select * from Course;
